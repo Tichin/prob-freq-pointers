@@ -1,9 +1,10 @@
 "use strict";
-// add whatever parameters you deem necessary & write docstring
+
 /**Takes sorted array of nums.  Takes a target average.
+ * Returns true if any pair of the array has the target average for its average.
+ * Otherwise, return false.
  * Ex. [1,2,3], 2.5 // true
- * Complexity: O(n)
- * Could be empty array
+ * Could be empty array, in which case it should return false.
 */
 
 function averagePair(sortedNums, targetAvg) {
