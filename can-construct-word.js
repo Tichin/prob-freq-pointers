@@ -13,7 +13,7 @@ function canConstructWord(word, letters) {
   // check if word is longer than letters return false
   if (word.length > letters.length) { return false; }
   // build freq counter for letters
-
+//TODO make into own function
   for (let letter of letters) {
 
     freqCounter[letter] = (freqCounter[letter] || 0) + 1;
